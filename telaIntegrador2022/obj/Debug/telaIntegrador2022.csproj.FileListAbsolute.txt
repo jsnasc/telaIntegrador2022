@@ -1,0 +1,15 @@
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.csproj.AssemblyReference.cache
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\MainWindow.g.cs
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\App.g.cs
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022_MarkupCompile.cache
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022_MarkupCompile.lref
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\bin\Debug\telaIntegrador2022.exe.config
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\bin\Debug\telaIntegrador2022.exe
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\bin\Debug\telaIntegrador2022.pdb
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\MainWindow.baml
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.g.resources
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.Properties.Resources.resources
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.csproj.GenerateResource.cache
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.csproj.CoreCompileInputs.cache
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.exe
+C:\Users\ruani\source\repos\telaIntegrador2022\telaIntegrador2022\obj\Debug\telaIntegrador2022.pdb
