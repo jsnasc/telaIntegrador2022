@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:telaIntegrador2022"
         mc:Ignorable="d"
-        Title="Integrador2022" MinHeight="720" MinWidth="850" SizeToContent="WidthAndHeight">
+        Title="Integrador2022" MinHeight="720" MinWidth="870" SizeToContent="WidthAndHeight">
     <DockPanel Background="gray">
         <Menu Name="Menupric" DockPanel.Dock="Top" Visibility="Visible" >
             <MenuItem Header="_Arquivo">
@@ -16,7 +16,7 @@
             </MenuItem>
         </Menu>
 
-        <Grid Background="MediumAquamarine" Margin="7">
+        <Grid Background="Gray" Margin="7">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="110"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
@@ -58,7 +58,8 @@
                 <!--Informar, desativar,executar Informar, Ativar....-->
             </Grid.RowDefinitions>
 
-            <!--Image Grid.Row="0" Grid.Column="0"></Image> foto gondim-->
+            <Image Source="gondim.png" Grid.Row="0" Stretch="Uniform" Grid.Column="2" Margin="87,10,114,15" Grid.ColumnSpan="2"/>
+            <!--foto gondim-->
             <Label Foreground="White" FontWeight="Bold" Grid.Row="1" Grid.Column="0" HorizontalAlignment="center">Integrador</Label>
             <Button x:Name="Desativar_btn" Content="Desativar" HorizontalAlignment="center" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Width="127" Click="Desativar_btn_Click" Height="33"/>
             <Button x:Name="Executa_Int_btn" Content="Executar Integrador" HorizontalAlignment="center" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Width="127" Click="Executa_Int_btn_Click" Height="33"/>
@@ -145,11 +146,11 @@
             <Label x:Name="Pendentes_naturgy" Content="20" HorizontalAlignment="center" Grid.Row="13" Grid.Column="4" VerticalAlignment="center" Width="46" Height="33"/>
 
             <!--Integrador Informar-->
-            <Label Foreground="White" FontWeight="Bold" Grid.Row="14" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="center">Informar</Label>
-            <Button x:Name="Remover_X_btn" Content="Remover" HorizontalAlignment="center" Grid.Row="14" Grid.Column="1" VerticalAlignment="center" Width="127" Height="33"/>
-            <Button x:Name="Adicionar_Y_btn" Content="Adicionar" HorizontalAlignment="center" Grid.Row="14" Grid.Column="2" VerticalAlignment="center" Width="127" Height="33"/>
-            <Button x:Name="Executar_Z_btn" Content="Executar" HorizontalAlignment="center" Grid.Row="14" Grid.Column="3" VerticalAlignment="center" Width="127" Height="33"/>
-            <Label x:Name="Pendentes_W"  HorizontalAlignment="center" Grid.Row="14" Grid.Column="4" VerticalAlignment="center" Width="127" Height="33"/>
+            <Label Foreground="White" FontWeight="Bold" Grid.Row="14" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="center" RenderTransformOrigin="0.467,0.885" Margin="24,14,26,-3" Height="30" >Informar</Label>
+            <Button x:Name="Remover_X_btn" Content="Desativar" HorizontalAlignment="center" Grid.Row="14" Grid.Column="1" VerticalAlignment="center" Width="128" Height="36" Margin="18,10,19,-1"/>
+            <Button x:Name="Adicionar_Y_btn" Content="Executar&#x0a;Informar" HorizontalAlignment="center" Grid.Row="14" Grid.Column="2" VerticalAlignment="center" Width="128" Height="36" Margin="21,11,21,-6"/>
+            <Button x:Name="Executar_Z_btn" Content="Executar" HorizontalAlignment="center" Grid.Row="14" Grid.Column="3" VerticalAlignment="center" Width="128" Height="36" Margin="19,9,19,-1"/>
+            <Label x:Name="Pendentes_W"  HorizontalAlignment="center" Grid.Row="14" Grid.Column="4" VerticalAlignment="center" Width="46" Height="30"/>
 
         </Grid>
     </DockPanel>
